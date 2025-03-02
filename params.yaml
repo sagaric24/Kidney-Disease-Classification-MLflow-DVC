@@ -2,7 +2,7 @@ AUGMENTATION: True  #Runtime augmention
 IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model - input shape
 BATCH_SIZE: 16 # local training
 INCLUDE_TOP: False # FC layer is removed
-EPOCHS: 2 # One epoch training (atleast start with 200/300)
+EPOCHS: 1 # One epoch training (atleast start with 200/300)
 CLASSES: 2 #normal vs tumor
 WEIGHTS: imagenet # imagnet datset is used for pretained model
 LEARNING_RATE: 0.01 #for optimizer

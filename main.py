@@ -47,3 +47,8 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
+
+#why we need DVC? 
+#Everytime you run the it starts from- downloads data + prepare base model + trains everytime again and again
+#Can we track the pipeline? just like git, when once committed, it wont commit again 
+#DVC - Data Version Control
