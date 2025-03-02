@@ -1,4 +1,4 @@
-# Disease-Classification-MLflow-DVC
+# Disease Classification with End-to-End MLOps Pipeline
 
 ## Workflows
 
